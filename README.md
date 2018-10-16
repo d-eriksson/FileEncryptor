@@ -33,11 +33,11 @@ This program is used to decrypt all the files that have been encrypted.
 
 # How to compile and run
 ## Start client
-go to root folder cd FileEncryptor
-javac -cp ".;commons-codec-1.11.jar;commons-io-2.6.jar" *.java
-java -cp ".;commons-codec-1.11.jar; commons-io-2.6.jar" Test
+- go to root folder cd FileEncryptor
+- javac -cp ".;commons-codec-1.11.jar;commons-io-2.6.jar" *.java
+- java -cp ".;commons-codec-1.11.jar; commons-io-2.6.jar" Test
 
 ## Start Server
-go to the server folder and run
-javac Server.java
-java Server
+- go to the server folder and run
+- javac Server.java
+- java Server
