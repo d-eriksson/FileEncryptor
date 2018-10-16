@@ -22,6 +22,15 @@ This class is used to encrypt and decrypt, it has four methods two encrypt metho
 #### FileCreeper
 This class will take a root position on the harddrive i.e. a directory (for a whole harddrive you would use "C:/") then it traverse all files in that directory and enters those directories. This is a recursive function which won't stop until all files have been found. The class performs some optimisations by not entering som pre-determined folders, like /node_modules and /Windows This is done to enhance performance and not to encrypt any essential files for the operating system to function. It also only searches for the filetypes that are given, there's no reason to encrypt .exe files and similar files. We want to encrypt personal files like textdocuments, pdfs, images and windows.
 
+#### FileEncryptor
+Takes a file encrypts it using the encryptor class and then writes over the old file with the encrypted one.
+
+#### Main
+This is the main file that runs the encryption software and connects to the server.
+
+#### MainDecrypt
+This program is used to decrypt all the files that have been encrypted.
+
 # How to compile and run
 ## Start client
 go to root folder cd FileEncryptor
